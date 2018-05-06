@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<title>\Art Protoype</title>
+<link rel="icon" 
+      type="image/png" 
+      href="./favicon.png">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<body style="margin: 0px">
+  <canvas></canvas>
+</body>
+<script>
+const width = innerWidth;
+const height = innerHeight;
+
+const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+const analyser = audioCtx.createAnalyser();
+const dataArray = new Uint8Array(analyser.fftSize);
+var start = false;
+let drawArray = [];
+  
+const canvas = document.querySelector('canvas');
+canvas.setAttribute('width',width);
+canvas.setAttribute('height',height);
+  
+const canvasCtx = canvas.getContext("2d");
+canvasCtx.fillStyle = 'rgba(0, 0, 0, 1)';
+canvasCtx.lineWidth = 1;
+canvasCtx.translate(width/2, height/2);
+canvasCtx.font = '48px serif white';
+  
+const recognition = new webkitSpeechRecognition();
+recognition.lang = 'en-US';
+recognition.continuous = true;
+recognition.interimResults = false;
+recognition.maxAlternatives = 1;
+recognition.start();
+
+[
+ 'onaudiostart',
+ 'onaudioend',
+ 'onend',
+ 'onerror',
+ 'onnomatch',
+ 'onresult',
+ 'onsoundstart',
+ 'onsoundend',
+ 'onspeechend',
+ 'onstart'
+].forEach(function(eventName) {
+  recognition[eventName] = function(e) {
+    console.log(eventName, e);
+  };
+});
+
+var result_count = 0; 
+
+navigator.getUserMedia (
+  {audio: true},
+  function(stream) {
+    audioCtx.createMediaStreamSource(stream).connect(analyser);
+    draw();
+  },
+  function(err) {
+    console.log('The following error occured: ' + err);
+  }
+);
+  
+var size = 8;
+var drawLength = dataArray.length / 4;
+
+const radialLine = d3.radialLine()
+    .curve(d3.curveBasis)
+    .angle(function(d, i) {
+      return i / (drawLength / 2) * Math.PI * size;
+    })
+    .radius(function(d, i) {
+      return (Math.abs(drawArray[i] - 128) / 128 * Math.min(height, width/2)) * size;
+    })
+    .context(canvasCtx);
+  
+function draw() {
+  canvasCtx.fillRect(-width/2, -height/2, width, height);
+  analyser.getByteTimeDomainData(dataArray);
+  drawArray = [...Array.from(dataArray), ...drawArray].slice(0, drawLength);
+  var a = 'rgb(' + String(Math.floor(Math.random()*100/2) * 2) + ',' + String(Math.floor(Math.random()*100/2) * 2) + ',' + String(Math.floor(Math.random()*100/2) * 2) +')';
+  canvasCtx.strokeStyle = a; 
+  canvasCtx.beginPath();
+  radialLine(drawArray);
+  canvasCtx.stroke();
+
+  recognition.onresult = function(event) {
+    rec_text = event.results[result_count][0].transcript
+    if (rec_text == "bigger" || rec_text == " bigger"){
+      size += 4
+    } else if(rec_text == "smaller" || rec_text == " smaller"){
+      if (size > 4){
+        size -= 4 
+      } else if (size > 0){
+        size -= 1
+      } 
+    }
+    result_count = result_count + 1; 
+  };
+  recognition.onend = function(event){
+    recognition.start();
+  }
+
+  requestAnimationFrame(draw);
+};
+
+</script>
