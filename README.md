@@ -10,7 +10,9 @@ Based on the audio input, the center figure changes its shape. It also adapts to
 * Search "Experimental Extension APIs"
 * Set it to "Enabled"
 * Relaunch Chrome
-* After viewing it, set the settings back to their previous conditions.  
+* After viewing it, set the settings back to their previous conditions.
+
+MICROPHONE ACCESS IS REQUIRED. 
 
 # Built with 
 * [Audio Radial Line](https://bl.ocks.org/alexmacy/a39e1e54f68c45b5e1bb5b27c78908db)
