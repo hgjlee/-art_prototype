@@ -8,6 +8,7 @@
   <canvas></canvas>
 </body>
 <script>
+
 const width = innerWidth;
 const height = innerHeight;
 
@@ -73,7 +74,7 @@ const radialLine = d3.radialLine()
       return i / (drawLength / 2) * Math.PI * size;
     })
     .radius(function(d, i) {
-      return (Math.abs(drawArray[i] - 128) / 128 * Math.min(height, width/2)) * size;
+      return ((drawArray[i] - 128) / 128 * Math.min(height, width/2)) * size;
     })
     .context(canvasCtx);
   
