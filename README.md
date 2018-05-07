@@ -2,7 +2,7 @@
 
 ![Alt Text](https://github.com/hyunjacoblee/-art_prototype/blob/master/prototype.gif)
 
-Based on the audio input, the center figure changes its shape. It also adapts to verbal commands: "bigger" and "smaller". The demo is available ![here](bit.ly/prototype_jacob), preferably on Chrome. In order to view it, you take the following steps: 
+Based on the audio input, the center figure changes its shape. It also adapts to verbal commands: "bigger" and "smaller". The demo is available [here](bit.ly/prototype_jacob), preferably on Chrome. In order to view it, you take the following steps: 
 
 * Search “chrome://flags/“ in the address bar
 * Search “Autoplay Policy”
