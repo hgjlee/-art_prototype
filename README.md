@@ -1,4 +1,4 @@
-# \Art Application Prototype
+# Poetic Justice Application Prototype
 
 ![Alt Text](https://github.com/hyunjacoblee/-art_prototype/blob/master/prototype.gif)
 
