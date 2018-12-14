@@ -1,6 +1,10 @@
 # Prototype 1
 [![Metaball Visual So Far](https://img.youtube.com/vi/BM3qe0Q5glw/0.jpg)](https://www.youtube.com/watch?v=BM3qe0Q5glw)
 
+Built with:
+* [Unreal Engine](https://www.unrealengine.com/en-US/what-is-unreal-engine-4)
+* [Metaballs Plugin](https://github.com/andyrst/ue4_metaballs)
+
 # Prototype 2 
 
 ![Alt Text](https://github.com/hyunjacoblee/-art_prototype/blob/master/prototype.gif)
@@ -17,7 +21,7 @@ Based on the audio input, the center figure changes its shape. It also adapts to
 
 MICROPHONE ACCESS IS REQUIRED. 
 
-# Built with 
+Built with:
 * [Audio Radial Line](https://bl.ocks.org/alexmacy/a39e1e54f68c45b5e1bb5b27c78908db)
 * [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 
