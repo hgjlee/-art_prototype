@@ -1,7 +1,7 @@
 # \Art Prototype
 [![Metaball Visual So Far](https://img.youtube.com/vi/BM3qe0Q5glw/0.jpg)](https://www.youtube.com/watch?v=BM3qe0Q5glw)
 
-#\Art Blog 
+# \Art Blog 
 * [Link](https://backslashart.github.io/)
 
 # Poetic Justice Application Prototype
