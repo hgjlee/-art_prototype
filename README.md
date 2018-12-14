@@ -1,10 +1,7 @@
-# \Art Prototype
+# Prototype 1
 [![Metaball Visual So Far](https://img.youtube.com/vi/BM3qe0Q5glw/0.jpg)](https://www.youtube.com/watch?v=BM3qe0Q5glw)
 
-# \Art Blog 
-* [Link](https://backslashart.github.io/)
-
-# Poetic Justice Application Prototype
+# Prototype 2 
 
 ![Alt Text](https://github.com/hyunjacoblee/-art_prototype/blob/master/prototype.gif)
 
@@ -23,3 +20,6 @@ MICROPHONE ACCESS IS REQUIRED.
 # Built with 
 * [Audio Radial Line](https://bl.ocks.org/alexmacy/a39e1e54f68c45b5e1bb5b27c78908db)
 * [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
+
+# \Art Fellowship Blog 
+* [Link](https://backslashart.github.io/)
