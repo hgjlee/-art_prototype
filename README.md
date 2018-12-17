@@ -9,7 +9,7 @@ Built with:
 
 ## Sculpture Pipeline
 
-<p float="left">
+<p float="center">
   <img src="https://github.com/backslashart/backslashart.github.io/blob/master/assets/images/initialview.png" width="100" />
   <img src="https://github.com/backslashart/backslashart.github.io/blob/master/assets/images/blurring.gif" width="100" /> 
   <img src="https://github.com/backslashart/backslashart.github.io/blob/master/assets/images/3dmap.png" width="100" />
