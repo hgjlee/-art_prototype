@@ -10,11 +10,11 @@ Built with:
 ## Sculpture Pipeline
 
 <p float="center">
-  <img src="https://github.com/backslashart/backslashart.github.io/blob/master/assets/images/initialview.png" width="200" />
-  <img src="https://github.com/backslashart/backslashart.github.io/blob/master/assets/images/blurring.gif" width="200" /> 
-  <img src="https://github.com/backslashart/backslashart.github.io/blob/master/assets/images/3dmap.png" width="200" />
-  <img src="https://github.com/backslashart/backslashart.github.io/blob/master/assets/images/topview.png" width="200" />
-  <img src="https://github.com/backslashart/backslashart.github.io/blob/master/assets/images/morphing.gif" width="200" />
+  <img src="https://github.com/backslashart/backslashart.github.io/blob/master/assets/images/initialview.png" width="150" />
+  <img src="https://github.com/backslashart/backslashart.github.io/blob/master/assets/images/blurring.gif" width="150" /> 
+  <img src="https://github.com/backslashart/backslashart.github.io/blob/master/assets/images/3dmap.png" width="150" />
+  <img src="https://github.com/backslashart/backslashart.github.io/blob/master/assets/images/topview.png" width="150" />
+  <img src="https://github.com/backslashart/backslashart.github.io/blob/master/assets/images/morphing.gif" width="150" />
 </p>
 
 # Prototype 2 
