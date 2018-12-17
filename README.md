@@ -1,6 +1,8 @@
 # Prototype 1
 [![Metaball Visual So Far](https://img.youtube.com/vi/BM3qe0Q5glw/0.jpg)](https://www.youtube.com/watch?v=BM3qe0Q5glw)
 
+* Mercury animation with metaballs to capture the data movements from t-SNE
+
 Built with:
 * [Unreal Engine](https://www.unrealengine.com/en-US/what-is-unreal-engine-4)
 * [Metaballs Plugin](https://github.com/andyrst/ue4_metaballs)
