@@ -7,6 +7,16 @@ Built with:
 * [Unreal Engine](https://www.unrealengine.com/en-US/what-is-unreal-engine-4)
 * [Metaballs Plugin](https://github.com/andyrst/ue4_metaballs)
 
+## Sculpture Pipeline
+
+<p float="left">
+  <img src="/backslashart.github.io/assets/images/initialview.png" width="100" />
+  <img src="/backslashart.github.io/assets/images/blurring.png" width="100" /> 
+  <img src="/backslashart.github.io/assets/images/3dmap.png" width="100" />
+  <img src="/backslashart.github.io/assets/images/topview.png" width="100" />
+  <img src="/backslashart.github.io/assets/images/morphing.png" width="100" />
+</p>
+
 # Prototype 2 
 
 ![Alt Text](https://github.com/hyunjacoblee/-art_prototype/blob/master/prototype.gif)
