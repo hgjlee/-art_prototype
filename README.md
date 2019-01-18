@@ -22,7 +22,7 @@ I developed a pipeline that takes in images from GANs and outputs dynamic motion
 [![Navier Stokes Velocity](https://img.youtube.com/vi/4wI4yDbP9sk/0.jpg)](https://youtu.be/4wI4yDbP9sk)
 [![Navier Stokes Density](https://img.youtube.com/vi/zw3U7I0rC7E/0.jpg)](https://youtu.be/zw3U7I0rC7E)
 
-I developed these interactive prototypes that use the Navier Stokes equations to simulate the motions of fluids. The first video demonstrates the velocity field that changes according to external forces. You can see how the velocity propagates and finds an equilibrium. The second video shows the density field on top of the velocity field. As the velocity changes, the density also changes in a way that is very similar to the liquid. The models were built in Python. 
+I developed these interactive prototypes that use the Navier Stokes equations to simulate the motions of fluids. The first video demonstrates the velocity field that changes according to external forces. You can see how the velocity propagates and finds an equilibrium. The second video shows the density field on top of the velocity field. As the velocity changes, the density also changes in a way that is very similar to the liquid. The models were built in Python. Please watch them in 2x speed. 
 
 Built with:
 * [Python Mode for Processing](https://github.com/jdf/processing.py)
